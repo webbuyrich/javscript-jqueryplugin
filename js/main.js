@@ -9,9 +9,16 @@ $('.animsition').animsition({
 
 });
 	
-
+// Add Static Top Nav
 $('.blog-nav').sticky({
-	topSpacing:0
+
+});
+
+$('.blog-nav').on('sticky-start', function(){
+	$('.description').html('The color changes when you begin to scroll');
+});
+$('.blog-nav').on('sticky-end', function(){
+	$('.description').html('');
 });
 
 });
