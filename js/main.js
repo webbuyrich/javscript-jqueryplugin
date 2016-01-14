@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+// Animation Transistions
 $('.animsition').animsition({
 
 	inClass: 'fade-in-right-lg',
@@ -9,5 +10,8 @@ $('.animsition').animsition({
 });
 	
 
+$('.blog-nav').sticky({
+	topSpacing:0
+});
 
 });
