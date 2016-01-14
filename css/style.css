@@ -1,5 +1,6 @@
 .sport-link, .sport-link:hover {color: #fff; text-decoration: none;}
 .blog-nav{background-color: #428BCA;}
-.is-sticky .blog-nav{background-color: red; left: 0; width:100%!important; z-index: 1;}
-
+.is-sticky .blog-nav{background-color: red; left: 0; width:100%!important; z-index: 1; padding: 5px;}
+.is-sticky .blog-description{background-color: #fff; color: #27ae60; left: 0; width:100%!important; text-align: center; z-index: 2; padding: 20px;}
+.nav-link{color: #2980b9;}
 
