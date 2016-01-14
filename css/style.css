@@ -5,7 +5,9 @@ body{background:#bdc3c7;}
 .is-sticky .blog-description{background-color: #fff; color: #27ae60; left: 0; width:100%!important; text-align: center; z-index: 2; padding: 20px;}
 .nav-link{color: #2980b9;}
 
-
+.slick-dots li button:before{
+	font-size: 16px;
+}
 
 
 
